@@ -7,14 +7,14 @@
 </head>
 <body>
     <div>
-        <h1 id="titulo">cadastro de devs</h1>
-        <p id="subtítulo">complete suas informações</p>
+        <h1> id="titulo">cadastro de devs</h1>
+        <p> id="subtítulo">complete suas informações</p>
     </div>
     <form>
         <fieldset class="grupo"
         <div class="campo">
             <label for="nome"><strong>nome</strong></label>
-            <input type="tex" name="nome" id="nome"required>
+            <input type="text" name="nome" id="nome"required>
         </div>
         <div class="campo ">
             <label for="sobrenome"<strong>sobrenome</strong></label>
@@ -24,9 +24,40 @@
         <br>
         <div class="campo"
         <label for="email"><strong>email</strong></label>
-        <input type 
-
-
+        <input type="email" name="email" id="email" required
+        </div>
+        <br>
+        <div class="campo"
+        <label><strong>De qual lado do aplicativo você desenvolve?</strong></label>
+        <label>
+            <input type="radio" nome="devweb" value="Frontend" checked>Front-end
+        </label>
+        <label> 
+            <imput type="Radio" nome="devweb" value="backend">back-end
+        </label>
+        <label>
+            <imput type="Radio" nome="devweb" value="fullstack"
+        </label>
+    </div>
+    <div class="campo"> 
+        <label for="Senioridade"<strong>Senioridade</strong></label>
+        <seleted id="Senioridade">
+            <option seleted disabled value="">Selecione</option>
+            <option>Junior</option>
+            <option>Pleno</option>
+            <option>Senior</option>
+            </seleted>
+    </div>
+    <fieldset class="grupo"
+    <div class="campo"
+    <label><<strong>Selecione tecnologias que utiliza:</strong></label>
+    <br><br>
+    <input type="checkbox" id="tecno1" value="HTML">
+    <label for="tecno1">HTML</label>
+    <input type="checkbox" id="tecno2" value="CSS">
+    <label for="tecno2">CSS</label>
+    <input type="checkbox" id="tecno3" value="java script">
+    
     </form>
 </body>
 </html>
